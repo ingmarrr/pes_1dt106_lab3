@@ -1,0 +1,9 @@
+ 
+&i2c0 {
+    bme680: bme680@77 {
+      compatible = "bosch,bme680";
+      label = "BME680";
+      reg = <0x77>;
+    };
+};
+

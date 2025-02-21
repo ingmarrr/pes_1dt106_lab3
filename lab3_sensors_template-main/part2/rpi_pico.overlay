@@ -1,1 +1,10 @@
-// write your device tree here
+
+    &i2c0 {
+        status = "okay";
+        bme680@77 {
+            compatible = "bosch,bme680";
+            reg = <0x77>;
+            label = "BME680";
+        };
+    };
+
